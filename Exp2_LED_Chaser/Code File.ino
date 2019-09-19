@@ -24,7 +24,7 @@ allLEDsOff();
 }
 }
 
-void allLEDsOff(void)
+void allLEDsOff()
 {
 for (int i = 10; i <= 14; i++) {
 digitalWrite(i, LOW);
